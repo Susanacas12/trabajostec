@@ -1,0 +1,65 @@
+.pp{
+text-decoration:none;
+font-weight: 600;
+font-size: 20px;
+color:#1B2631;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:40px;
+padding-right:40px;
+background-color:#FFF7F6;
+border-color:#1B2631 ;
+border-width: 8px;
+border-style: solid;
+border-radius:35px;
+
+}
+
+.sp {
+text-decoration:none;
+font-weight: 600;
+font-size: 20px;
+color:#1B2631;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:40px;
+padding-right:40px;
+background-color:#FFF7F6;
+border-color: #1B2631;
+border-width: 8px;
+border-style: solid;
+border-radius:35px;
+
+}
+
+.tp {
+text-decoration:none;
+font-weight: 600;
+font-size: 20px;
+color:#1B2631;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:40px;
+padding-right:40px;
+background-color:#FFF7F6;
+border-color: #1B2631;
+border-width: 8px;
+border-style: solid;
+border-radius:35px;
+
+}
+
+.pp:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+
+  .sp:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+
+  .tp:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }

@@ -1,0 +1,27 @@
+
+}
+
+.boton1{
+	width: 80px;
+	height: 50px;
+}
+
+.boton1:hover{
+	height:210px;
+	width:310px;
+	text-shadow: transparent;
+	background: url(boton3.png);
+	color: transparent;
+	position: absolute;
+}
+
+.boton2{
+	width: 80px;
+	height: 50px;
+}
+
+.boton2:hover{
+	width: 90px;
+	height: 60px;
+
+}
