@@ -1,0 +1,25 @@
+body {
+ background-image: url(fon.png) ;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top left;
+ 
+}
+
+.camp1
+{
+
+	  margin: 5px 450px 10px;
+color: #000000;
+background:#FDEDEC ;
+}
+
+
+.camp2
+{
+
+	  margin: 5px 450px 10px;
+color: #000000;
+background:#EBDEF0 ;
+}
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="juu.css">
+	<title> SEGUNDA ENTREGA</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<center>
+	<form class="camp1">
+		 <i><h1>Ingreso colorido</h1></i>
+		 <font face="Courier New"><label>Digita el color que desees(por favor pon la inicial mayuscula):</label></font>
+		<br><br>
+		<input type="tex" id="nb" placeholder="Ingrese el color">
+		<br><br>
+		<input type="button" value="Ingresar" onclick="inicio();">
+	</form>
+	<br><br>
+
+
+	<form class="camp2">
+		<i><h1>Eliminar</h1></i>
+		<font face="Courier New"><label>Digita el color que desees eliminar(por favor pon la inicial mayuscula) Y da click :</label></font>
+		<br><br>
+		<input type="text" id="color" placeholder="Ingrese el color">
+		<br><br>
+		<input type="button" value="Eliminar" onclick="si();">
+		<br><br>
+
+<h1><i> <label>Resultado:</label> </font></i></h1>
+	
+		<input type="text" id="result" placeholder="Resultado">
+
+
+
+
+
+
+		<script type="text/javascript">
+			
+			var vector=["Morado","Amarillo","Gris","Blanco"];
+console.log(vector);
+
+var si=function()
+{
+	var i=0;
+	var color=document.getElementById("color").value;
+	var ul=vector.length-1; 
+
+
+	while(i<vector.length)
+	{
+
+
+		if(color==vector[i])
+		{
+			var ultimo=vector[ul];
+			vector[ul]=vector[i];
+			vector[i]=ultimo;
+			vector.pop();
+			console.log(vector);
+			i=vector.length;
+			document.getElementById("result").value="Se elimino correctamente";
+			document.getElementById("color").value="";
+		}
+
+
+		
+		else
+		{
+			i=i+1;
+			if (color!=vector[i])
+			{
+				document.getElementById("result").value=color +" no está disponible";
+			}
+		}
+	}
+}
+
+var inicio=function()
+{
+	var nombi=document.getElementById("nb").value;
+	vector.push(nb);
+	console.log(vector);
+	document.getElementById("nb").value="";
+}
+		</script>
+
+
+
+
+	
+	</form>
+</center>
+</body>
+</html>
