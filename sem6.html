@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+		<link rel="stylesheet" type="text/css" href="esti.css">
+</head>
+
+<title> TERCER ENTREGA</title>
+
+	<meta charset="UTF-8">
+
+	<center>
+
+       <i><h1><font color="#EBA082"><font face="Comic Sans MS,arial,verdana">ACTIVIDAD 3 </font><i>
+       	<br><br>
+
+       	<font color="#EBA082"><font face="Comic Sans MS,arial,verdana"> Escribe una frase que contenga </font><i>
+       <br>
+
+       <font color="#EBA082"><font face="Comic Sans MS,arial,verdana">las letras A B C y diviertete</font><i>
+       	<br><br>
+
+       <div class="cuadro" id="cuadro"></div>
+       </div>
+	 	
+	   <input type="text" name="ver" id="ver" class="ver">
+
+
+	<body onkeypress="teclado()">
+
+	<script>
+
+		function teclado()
+
+	{
+
+	if(event.code=="KeyA")
+	{
+
+			var c=document.getElementById("cuadro");
+cuadro.className="c2";
+ 
+ var jej=document.getElementById("ver").value; 
+   document.getElementById("cuadro").innerHTML=jej;
+
+
+    }
+	else
+			if(event.code=="KeyB")
+	{
+
+			var c=document.getElementById("cuadro");
+cuadro.className="c3";
+var jej=document.getElementById("ver").value; 
+   document.getElementById("cuadro").innerHTML=jej;
+
+
+	}
+	else
+					if(event.code=="KeyC")
+	{
+
+			var c=document.getElementById("cuadro");
+cuadro.className="c4";
+var jej=document.getElementById("ver").value; 
+   document.getElementById("cuadro").innerHTML=jej;
+
+
+	}
+
+		}
+
+	
+
+				</script>
+</font>
+</body>

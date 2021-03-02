@@ -1,0 +1,68 @@
+body 
+{
+ background-image: url(fondo.png) ;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top left;
+  
+}
+
+
+
+.cuadro
+{
+		
+	position: absolute;
+	width: 40%;
+	height: 40%;
+	top: 35%;
+	left: 30%;
+    background-color: #FFF3E6;
+   
+}
+.c2
+{
+		
+	position: absolute;
+	width: 40%;
+	height: 40%;
+	top: 35%;
+	left: 30%;
+    background-color: #B9DEE5;
+}
+.c3
+{
+		
+	position: absolute;
+	width: 40%;
+	height: 40%;
+	top: 35%;
+	left: 30%;
+    background-color: #F7FCB1;
+}
+.c4
+{
+
+	position: absolute;
+	width: 40%;
+	height: 40%;
+	top: 35%;
+	left: 30%;
+    background-color: #F9CFC0;	
+	
+}
+
+.ver{
+	position: absolute;
+	left: 35%;
+	top: 55%;
+	width: 30%;
+	background-color: white;
+	  border: white 2px none;
+	  text-align:center;
+	font-size: xx-large;
+	
+}
+
+
+
