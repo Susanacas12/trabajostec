@@ -1,0 +1,53 @@
+body 
+{
+ background-image: url(fondos.png) ;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top left;
+  
+}
+.titulo
+ { 
+font-family: Courier-New; 
+font-size: 35px; 
+width: 400;
+height:45px;
+color: #FFFFFF; 
+background:#FFF5A1; 
+}
+
+.cuadro
+{
+
+
+    text-align:center;
+	position: absolute;
+	width: 40%;
+	height: 25%;
+	top: 35%;
+	left: 30%;
+    background-color: #fabdaa;
+	
+}
+
+.sa {
+text-decoration:none;
+font-weight: 600;
+font-size: 20px;
+color:#000000;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:40px;
+padding-right:40px;
+background-color:#FFF5A1;
+border-color: #ffffff;
+border-width: 8px;
+border-style: solid;
+border-radius:35px;
+}
+
+ .sa:hover
+ {
+    opacity: 0.6;
+    text-decoration: none;
+  }
