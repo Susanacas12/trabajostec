@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<center>
+    <link rel="stylesheet" type="text/css" href="c1.css">
+    <i><div class="titulo"><h1><font color="#EBA082"><font face="Comic Sans MS,arial,verdana">ACTIVIDAD 3 </font><i></div>
+    </center>
+</head>
+
+<script >
+
+function position(event)
+
+{
+
+	var x = event.clientX;
+
+	var y = event.clientY;
+    
+    var v=document.getElementById('v');
+
+	if (x>=400&&y>=120&&x<=850&&y<=405)
+	 {
+		document.getElementById("v").value="Estas dentro";
+	}
+	else
+	{
+		document.getElementById("v").value="Estas fuera";
+	}
+ }
+
+</script>
+
+<input name="v" id="v" class="v" disabled=»disabled» >
+
+<body onmousemove="position(event)" >
+</body>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ <center><font face="Courier New"><a class="ba" href="sem7.html" >VOLVER</a></font></a></center>
+</html> 
