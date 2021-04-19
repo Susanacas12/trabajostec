@@ -18,3 +18,27 @@ border-radius:35px;
     opacity: 0.6;
     text-decoration: none;
   }
+
+
+.pt {
+text-decoration:none;
+font-weight: 600;
+font-size: 20px;
+color:#1B2631;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:40px;
+padding-right:40px;
+background-color:#FFF7F6;
+border-color: #1B2631;
+border-width: 8px;
+border-style: solid;
+border-radius:35px;
+
+}
+
+.pt:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+
